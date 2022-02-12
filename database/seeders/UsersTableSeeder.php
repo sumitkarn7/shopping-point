@@ -23,7 +23,7 @@ class UsersTableSeeder extends Seeder
             ),
             array(
                 'name'=>'Seller User',
-                'email'=>'seller@ecom.com',
+                'email'=>'seller@ecoms.com',
                 'password'=>bcrypt('selleruser'),
                 'role'=>'seller',
                 'status'=>'active'
